@@ -12,13 +12,13 @@ This demo showcases an animation made from scratch via the keyframe animation li
 
 ## Highlights
 
- - Developed detailed animation library from scratch with no AI.
+ - Designed and implemented an HTML5 Canvas animation library from scratch.
  - Created thorough, readable documentation with jsdoc.
- - Began iteration of code years later with an improved skill set.
+ - Revisited the original design years later and began a class-based architectural redesign.
 
 ## Modernization
 
-The "modernization" branch showcases the beginnings of a complete overhaul of the library. It is preserved in an unfinished state to showcase how my skills as a developer have improved since then.
+The "modernization" branch showcases the beginnings of a complete overhaul of the library. It is preserved in an unfinished state to document how my approach to software architecture evolved over time.
 
 Modernization highlights:
 
@@ -49,5 +49,5 @@ Modernization remaining todo:
 5. To draw the current frame of an animation object to the HTML5 canvas, use the following function call:
 
     ```javascript
-    function drawKeyFrame(ctx, obj, x, y, width = 1, height = 1) {
+    drawKeyFrame(ctx, animation, x, y);
     ```

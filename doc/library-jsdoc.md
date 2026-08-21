@@ -1,7 +1,7 @@
 <a name="drawKeyFrame"></a>
 
 ## drawKeyFrame(ctx, obj, x, y, [width], [height]) ⇒ <code>undefined</code>
-All animation data is passed through obj. The sprites can either be stored as a spritesheet with an accompanying spriteData list, otherwisspritelist. Each sprite is represented by its index in each list. Sprites are drawn onto the canvas in the order that they appear in obj.dto use GSAP timelines to manipulate the values in obj.drawData (https://gsap.com/).
+All animation data is passed through obj. The sprites can either be stored as a spritesheet with an accompanying spriteData list, otherwise they must be stored as a spritelist. Each sprite is represented by its index in each list. Sprites are drawn onto the canvas in the order that they appear in obj.dto use GSAP timelines to manipulate the values in obj.drawData (https://gsap.com/).
 
 **Kind**: global function  
 **Version**: 1.1.0  
