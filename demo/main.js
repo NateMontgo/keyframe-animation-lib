@@ -16,7 +16,7 @@ function main() {
 function animate() {
     requestAnimationFrame(animate);
     c.clearRect(0, 0, canvas.width, canvas.height);
-    drawKeyFrame(c, blover, 100, 100, 2, 2);
+    // drawKeyFrame(c, blover, 100, 100, 2, 2);
 
     for (let i = 0; i < bloverSprites.length; i++) {
         c.drawImage(bloverSprites[i], xOffset + (i % 3) * cellWidth, yOffset + Math.floor(i / 3) * cellHeight, bloverSprites[i].width * 2, bloverSprites[i].height * 2);
