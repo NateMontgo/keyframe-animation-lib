@@ -84,7 +84,6 @@ function drawKeyFrame(ctx, obj, x, y, width = 1, height = 1) {
           foundRelativePositionReference = true;
           while (foundRelativePositionReference) {
               if (obj.drawData[relativePositionReferences[i][0]].positionType.slice(0, 10) === 'relativeTo') {
-      
               // image must not be anchored to itself
               if (parseInt(obj.drawData[i].positionType.slice(12)) !== i) {
                   relativePositionReferences[i].unshift(parseInt(obj.drawData[relativePositionReferences[i][0]].positionType.slice(12)));
