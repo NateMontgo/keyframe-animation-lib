@@ -18,7 +18,7 @@ to use GSAP timelines to manipulate the values in obj.drawData (<a href="https:/
 <a name="KeyframeAnimation"></a>
 
 ## KeyframeAnimation
-Sprites used in the animation can either be stored as a spritesheet with an accompanying spriteData list; otherwise, they mEach sprite is represented by its index in each list. Sprites are drawn onto the canvas in the order that they appear in obto use GSAP timelines to manipulate the values in obj.drawData (https://gsap.com/).
+Sprites used in the animation can either be stored as a spritesheet with an accompanying spriteData list; otherwise, they they must be stored as a spritelist. Each sprite is represented by its index in each list. Sprites are drawn onto the canvas in the order that they appear in obto use GSAP timelines to manipulate the values in obj.drawData (https://gsap.com/).
 
 **Kind**: global class  
 **Requires**: <code>module:DrawCoords</code>  
